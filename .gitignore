@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# JoyCode local cache (memory / tmp / rules)
+.joycode/
+
+# Local adapted output (not part of skill repo)
+adapted/
