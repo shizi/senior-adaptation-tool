@@ -486,18 +486,29 @@
 
 <section class="slide hero dark">
   <div class="chrome">
-    <div>Zero Adaptation · Designer Guide</div>
+    <div>Senior Adaptation Tool · Designer Guide</div>
     <div>Vol.01</div>
   </div>
-  <div class="frame" style="display:grid; gap:4vh; align-content:center; min-height:80vh">
+  <div class="frame" style="display:grid; gap:3.2vh; align-content:center; min-height:80vh">
     <div class="kicker" data-anim>给第一次使用它的设计师</div>
-    <h1 class="h-hero" style="font-size:8.4vw; line-height:1.02" data-anim>适老化<br>不是放大一切</h1>
-    <h2 class="h-sub" style="max-width:62vw" data-anim>它是一套让 Zero 原稿可控生成大字版 / 长辈版的协作流程。</h2>
-    <p class="lead" style="max-width:58vw" data-anim>
-      你选画板、定版本、标出不该动的区域；AI 读取 Zero 节点结构，把结果写回原画板右侧。
+    <h1 class="h-hero" style="font-size:7.2vw; line-height:1.04" data-anim>把原稿<br>变成大字版 / 长辈版</h1>
+    <h2 class="h-sub" style="max-width:66vw; font-size:2.7vw" data-anim>这不是“把页面全部放大”，而是让 AI 按规范改稿，再由设计师标边界、做验收。</h2>
+    <p class="lead" style="max-width:62vw; font-size:1.55vw" data-anim>
+      你只需要准备一个 Zero 原稿，告诉 AI 要哪个版本；Auto Layout 通过后，再用截图标出不希望放大的区域。
     </p>
-    <div class="meta-row" data-anim>
-      <span>Senior Adaptation Tool</span><span>·</span><span>V2.7.2</span><span>·</span><span>Zero MCP</span>
+    <div data-anim style="display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:2vw; max-width:76vw; margin-top:1vh">
+      <div style="border-top:1px solid currentColor; padding-top:1.4vh">
+        <div class="meta">01 · 原稿</div>
+        <div class="body-zh" style="font-size:max(13px,1vw); line-height:1.55; margin-top:.8vh">选中 Zero 里的 375×812 画板，或提供节点 ID / 画板名称。</div>
+      </div>
+      <div style="border-top:1px solid currentColor; padding-top:1.4vh">
+        <div class="meta">02 · 版本</div>
+        <div class="body-zh" style="font-size:max(13px,1vw); line-height:1.55; margin-top:.8vh">大字版 1.15x，长辈版 1.3x，也可以两个版本都生成。</div>
+      </div>
+      <div style="border-top:1px solid currentColor; padding-top:1.4vh">
+        <div class="meta">03 · 边界</div>
+        <div class="body-zh" style="font-size:max(13px,1vw); line-height:1.55; margin-top:.8vh">顶部导航、品牌图、Tab、固定切图等，直接截图圈给 AI。</div>
+      </div>
     </div>
   </div>
   <div class="foot">
@@ -506,89 +517,102 @@
   </div>
 </section>
 
-<section class="slide light">
+<section class="slide dark">
   <div class="chrome">
-    <div>Entry · 使用场景</div>
+    <div>Workflow · 完整流程</div>
     <div>02 / 07</div>
-  </div>
-  <div class="frame" style="padding-top:6vh">
-    <div class="kicker" data-anim>先判断要不要跑</div>
-    <h2 class="h-xl" style="font-size:5.8vw" data-anim>它适合把一张原稿<br>变成可验收的对照稿。</h2>
-    <p class="lead" style="max-width:68vw; margin-top:2vh; margin-bottom:5vh" data-anim>
-      常规 App 页面、商品卡、列表、弹窗、活动页都可以跑。真正影响质量的不是页面类型，而是源稿结构是否能让文字放大后自然让位。
-    </p>
-
-    <div class="grid-3" style="margin-top:5vh">
-      <div class="stat-card" data-anim>
-        <div class="stat-label">Must Have</div>
-        <div class="stat-nb" style="font-size:4.4vw">Zero</div>
-        <div class="stat-note">Zero MCP 是唯一硬门禁。没有 Deco 链接也能跑。</div>
-      </div>
-      <div class="stat-card" data-anim>
-        <div class="stat-label">Health Line</div>
-        <div class="stat-nb" style="font-size:4.4vw">70<span class="stat-unit">%</span></div>
-        <div class="stat-note">Auto Layout 覆盖率低于 70% 时，需要先做选择。</div>
-      </div>
-      <div class="stat-card" data-anim>
-        <div class="stat-label">Output</div>
-        <div class="stat-nb" style="font-size:4.4vw">右侧</div>
-        <div class="stat-note">原画板不动，新画板只生成在它右边。</div>
-      </div>
-    </div>
-  </div>
-  <div class="foot">
-    <div>判断入口 · 不是所有稿件都适合无脑自动化</div>
-    <div>02 / 07</div>
-  </div>
-</section>
-
-<section class="slide dark" data-animate="pipeline">
-  <div class="chrome">
-    <div>Workflow · 六步使用流程</div>
-    <div>03 / 07</div>
   </div>
   <div class="frame" style="padding-top:5vh">
     <div class="kicker">从选中画板开始</div>
-    <h2 class="h-xl" style="font-size:5.4vw">一次完整协作，只有六步。</h2>
+    <h2 class="h-xl" style="font-size:5.2vw">一次完整协作，按这六步走。</h2>
 
     <div class="pipeline-section">
       <div class="pipeline-label">Designer × AI Pipeline</div>
       <div class="pipeline" data-cols="6">
-        <div class="step" data-anim="step">
+        <div class="step" data-anim>
           <div class="step-nb">01</div>
-          <div class="step-title">选画板</div>
-          <div class="step-desc">在 Zero 中鼠标选中，或提供节点 ID / 名称。</div>
+          <div class="step-title">输入原稿</div>
+          <div class="step-desc">在 Zero 里选中画板，或发节点 ID / 画板链接。</div>
         </div>
-        <div class="step" data-anim="step">
+        <div class="step" data-anim>
           <div class="step-nb">02</div>
-          <div class="step-title">定版本</div>
-          <div class="step-desc">大字版、长辈版，或两个都要。</div>
+          <div class="step-title">确认版本</div>
+          <div class="step-desc">大字版、长辈版，或两个版本都生成。</div>
         </div>
-        <div class="step" data-anim="step">
+        <div class="step" data-anim>
           <div class="step-nb">03</div>
-          <div class="step-title">看覆盖率</div>
-          <div class="step-desc">≥70% 继续；低于 70% 先决定是否补 Auto Layout。</div>
+          <div class="step-title">覆盖率检测</div>
+          <div class="step-desc">Auto Layout ≥70% 继续；低于 70% 先补结构。</div>
         </div>
-        <div class="step" data-anim="step">
+        <div class="step" data-anim>
           <div class="step-nb">04</div>
-          <div class="step-title">标不放大</div>
-          <div class="step-desc">图片圈选、节点名、坐标范围都可以。</div>
+          <div class="step-title">标注边界</div>
+          <div class="step-desc">用截图告诉 AI 哪些区域不需要放大。</div>
         </div>
-        <div class="step" data-anim="step">
+        <div class="step" data-anim>
           <div class="step-nb">05</div>
-          <div class="step-title">写回 Zero</div>
-          <div class="step-desc">生成预处理、大字版、长辈版新画板。</div>
+          <div class="step-title">生成结果</div>
+          <div class="step-desc">AI 在原稿右侧生成大字版和长辈版。</div>
         </div>
-        <div class="step" data-anim="step">
+        <div class="step" data-anim>
           <div class="step-nb">06</div>
           <div class="step-title">人工验收</div>
-          <div class="step-desc">看裁切、挤穿、固定切图、低对比度。</div>
+          <div class="step-desc">检查裁切、挤穿、误放大和信息层级。</div>
         </div>
       </div>
     </div>
   </div>
   <div class="foot">
-    <div>演示时按方向键可逐步点亮流程</div>
+    <div>完整流程一屏看完</div>
+    <div>02 / 07</div>
+  </div>
+</section>
+
+<section class="slide light">
+  <div class="chrome">
+    <div>Input · 原稿与门禁</div>
+    <div>03 / 07</div>
+  </div>
+  <div class="frame grid-2-7-5" style="padding-top:4vh; gap:4vw">
+    <div style="display:flex; flex-direction:column; justify-content:space-between; min-height:0">
+      <div>
+        <div class="kicker" data-anim>第一步：输入给 AI</div>
+        <h2 class="h-xl" style="font-size:4.8vw" data-anim>先给原稿，<br>再看 Auto Layout 覆盖率。</h2>
+        <p class="lead" style="margin-top:2.6vh" data-anim>
+          AI 会读取 Zero 节点结构。如果 Auto Layout 覆盖率达到 70% 以上，就可以继续适配；如果没达到，先让 AI 提醒你补哪些容器。
+        </p>
+      </div>
+      <div class="callout" data-anim>
+        覆盖率低不是失败。它只是说明：文字放大后，页面还缺少“能自己让位”的结构。
+        <div class="callout-src">Rule · ≥70% 继续，低于 70% 先补 Auto Layout</div>
+      </div>
+    </div>
+    <div data-anim style="display:grid; grid-template-columns:1fr 1fr; gap:2vw; align-items:start">
+      <figure class="tile">
+        <div class="frame-img fit-contain" style="height:64vh">
+          <img src="images/input-original.png" alt="输入给 AI 的原始设计稿">
+        </div>
+        <figcaption class="frame-cap"><span class="pf">输入原稿</span><span class="idx">01</span></figcaption>
+      </figure>
+      <div style="display:flex; flex-direction:column; gap:2vh">
+        <div class="stat-card">
+          <div class="stat-label">Auto Layout Check</div>
+          <div class="stat-nb" style="font-size:4vw">70<span class="stat-unit">%</span></div>
+          <div class="stat-note">通过：直接继续生成。未通过：AI 会提示先补结构。</div>
+        </div>
+        <div class="rowline" style="grid-template-columns:1fr 1.6fr">
+          <div class="k">你要做</div>
+          <div class="v">按提示补 Frame、列表、Tab 等关键容器。</div>
+        </div>
+        <div class="rowline" style="grid-template-columns:1fr 1.6fr">
+          <div class="k">AI 会做</div>
+          <div class="v">检测覆盖率，判断是否能继续自动适配。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div>原稿结构决定适配稳定性</div>
     <div>03 / 07</div>
   </div>
 </section>
@@ -598,116 +622,99 @@
     <div>Annotation · 图片标注</div>
     <div>04 / 07</div>
   </div>
-  <div class="frame grid-2-7-5" style="padding-top:6vh">
-    <div style="display:flex; flex-direction:column; justify-content:space-between; gap:3vh">
+  <div class="frame grid-2-6-6" style="padding-top:4vh; gap:4vw">
+    <div style="display:flex; flex-direction:column; justify-content:space-between">
       <div>
-        <div class="kicker" data-anim>不要把标注做复杂</div>
-        <h2 class="h-xl" style="font-size:5.7vw" data-anim>圈出来就够了。</h2>
-        <p class="lead" style="margin-top:3vh" data-anim>
-          标注不是为了让 AI 看清每个像素，而是告诉它哪些区域在开发里是固定切图、精调导航或不该被文字放大影响的视觉资产。
+        <div class="kicker" data-anim>第二步：告诉 AI 边界</div>
+        <h2 class="h-xl" style="font-size:5vw" data-anim>不需要放大的地方，<br>直接圈出来。</h2>
+        <p class="lead" style="margin-top:2.6vh" data-anim>
+          图片标注是很有效的交互方式。你不需要把标注区域单独放大，也不需要做精细切图；整张截图上用红框圈出区域，再补一句说明就够。
         </p>
       </div>
       <div class="callout" data-anim>
-        图片标注可以直接发给 AI。<br>
-        不需要把“不放大”的地方单独放大截图。
-        <div class="callout-src">Rule · 标区域边界，不标像素细节</div>
+        重点不是让 AI 看清每个像素，而是让它知道“这些区域保持原样，不参与放大”。
+        <div class="callout-src">Example · 顶部导航 / 主视觉标题 / 顶部榜单 Tab / 商品图</div>
       </div>
     </div>
-    <div data-anim style="display:grid; gap:2.2vh; margin-top:2vh">
-      <div class="rowline" style="grid-template-columns:1fr 2fr">
-        <div class="k">图片</div>
-        <div class="v">整张画板截图 + 红框、箭头、备注。</div>
+    <figure class="tile" data-anim>
+      <div class="frame-img fit-contain" style="height:66vh">
+        <img src="images/annotation-no-scale.png" alt="用户用红框标注不需要放大的区域">
       </div>
-      <div class="rowline" style="grid-template-columns:1fr 2fr">
-        <div class="k">节点名</div>
-        <div class="v">例如“顶部导航”“京东真榜 logo 区”。</div>
-      </div>
-      <div class="rowline" style="grid-template-columns:1fr 2fr">
-        <div class="k">坐标</div>
-        <div class="v">例如 y=0 到 y=88 的顶部区域。</div>
-      </div>
-      <div class="rowline" style="grid-template-columns:1fr 2fr">
-        <div class="k">混合</div>
-        <div class="v">截图圈选 + 文案说明通常最稳。</div>
-      </div>
-    </div>
+      <figcaption class="frame-cap"><span class="pf">用户标注：这些区域不放大</span><span class="idx">02</span></figcaption>
+    </figure>
   </div>
   <div class="foot">
-    <div>图片是协作输入，不是视觉交付</div>
+    <div>图片标注可以直接发给 AI，不需要额外放大局部</div>
     <div>04 / 07</div>
   </div>
 </section>
 
-<section class="slide hero light">
+<section class="slide dark">
   <div class="chrome">
-    <div>No Scale · 典型排除区</div>
+    <div>Result · 两个版本</div>
     <div>05 / 07</div>
   </div>
-  <div class="frame" style="display:grid; grid-template-columns:1fr 1.05fr; gap:5vw; align-items:center; min-height:80vh">
-    <div>
-      <div class="kicker" data-anim>自动跳过系统栏</div>
-      <h1 class="h-hero" style="font-size:6.6vw; line-height:1.1" data-anim>这些地方<br>别放大。</h1>
-      <p class="lead" style="max-width:42vw; margin-top:3vh" data-anim>
-        StatusBar 和 Home Bar 会自动跳过。你要主动标注的，是那些“设计稿里看起来可编辑，开发里实际固定”的区域。
-      </p>
+  <div class="frame" style="padding-top:3vh">
+    <div class="kicker" data-anim>输出结果</div>
+    <h2 class="h-xl" style="font-size:4.8vw; margin-bottom:3vh" data-anim>AI 在原稿右侧生成：<br>大字版 1.15x 和长辈版 1.3x。</h2>
+    <div data-anim style="display:grid; grid-template-columns:repeat(3,1fr); gap:2.2vw; align-items:start">
+      <figure class="tile">
+        <div class="frame-img fit-contain" style="height:52vh">
+          <img src="images/input-original.png" alt="原始版本">
+        </div>
+        <figcaption class="frame-cap"><span class="pf">原版</span><span class="idx">Baseline</span></figcaption>
+      </figure>
+      <figure class="tile">
+        <div class="frame-img fit-contain" style="height:52vh">
+          <img src="images/output-large-1.15x.png" alt="大字版 1.15x 结果">
+        </div>
+        <figcaption class="frame-cap"><span class="pf">大字版</span><span class="idx">1.15x</span></figcaption>
+      </figure>
+      <figure class="tile">
+        <div class="frame-img fit-contain" style="height:52vh">
+          <img src="images/output-senior-1.3x.png" alt="长辈版 1.3x 结果">
+        </div>
+        <figcaption class="frame-cap"><span class="pf">长辈版</span><span class="idx">1.3x</span></figcaption>
+      </figure>
     </div>
-    <div class="grid-4" style="gap:3vh 3vw">
-      <div class="pillar" data-anim>
-        <div class="ic"><i data-lucide="panel-top" class="ico-lg"></i></div>
-        <div class="t">顶部导航</div>
-        <div class="d">返回、标题、右侧按钮横向空间紧，易挤出 375。</div>
-      </div>
-      <div class="pillar" data-anim>
-        <div class="ic"><i data-lucide="layout-template" class="ico-lg"></i></div>
-        <div class="t">Tab 区域</div>
-        <div class="d">底部 tab、频道 tab、一级 tab 容易折行或挤穿。</div>
-      </div>
-      <div class="pillar" data-anim>
-        <div class="ic"><i data-lucide="image" class="ico-lg"></i></div>
-        <div class="t">Banner 头图</div>
-        <div class="d">营销视觉和品牌大字通常是固定切图或精调资产。</div>
-      </div>
-      <div class="pillar" data-anim>
-        <div class="ic"><i data-lucide="award" class="ico-lg"></i></div>
-        <div class="t">徽章组件</div>
-        <div class="d">TOP 排名、金银铜标、品牌 logo 区优先保持原状。</div>
-      </div>
-    </div>
+    <p class="body-zh" style="margin-top:2vh; opacity:.72" data-anim>
+      大字版：主要放大普通文字。长辈版：普通文字按 1.3x 放大，Tab、豆腐块等特殊组件按模块整体处理，内部文字不二次放大。
+    </p>
   </div>
   <div class="foot">
-    <div>不放大 = 文字、图片、所有子节点都不动</div>
+    <div>结果是可继续精修的设计稿，不是免验收终稿</div>
     <div>05 / 07</div>
   </div>
 </section>
 
-<section class="slide dark" data-animate="directional">
+<section class="slide light" data-animate="directional">
   <div class="chrome">
-    <div>Output · Review</div>
+    <div>Review · 验收重点</div>
     <div>06 / 07</div>
   </div>
   <div class="frame" style="padding-top:5vh">
     <div class="kicker" data-anim>跑完以后看什么</div>
-    <h2 class="h-xl" style="font-size:5.2vw; margin-bottom:4vh" data-anim>AI 生成新画板，<br>设计师决定它能不能上线。</h2>
+    <h2 class="h-xl" style="font-size:5.2vw; margin-bottom:4vh" data-anim>AI 负责生成初稿，<br>设计师负责判断能不能用。</h2>
 
     <div class="grid-2-6-6" style="gap:5vw 4vh">
       <div data-anim="left" style="padding:3vh 2vw; border-left:3px solid currentColor">
-        <div class="kicker" style="opacity:.9">生成结果</div>
-        <h3 class="h-md" style="margin-top:2vh">原画板 → 预处理 → 大字版 → 长辈版</h3>
+        <div class="kicker" style="opacity:.9">必须检查</div>
+        <h3 class="h-md" style="margin-top:2vh">文字是否可读、是否挤穿、是否被裁切</h3>
         <p class="body-zh" style="margin-top:3vh">
-          skill 会统一行高、按规则放大文字，并把新画板裁切回 375×812，方便并排对照。它不会改原稿，也不会自动补 Auto Layout。
+          重点看商品卡标题、价格符号、优惠标签、横向 Tab、导航区、页面右侧和底部。所有版本都必须保持 375×812。
         </p>
       </div>
       <div data-anim="right" style="padding:3vh 2vw; border-left:3px solid currentColor">
-        <div class="kicker" style="opacity:.9">验收重点</div>
-        <h3 class="h-md" style="margin-top:2vh">裁切、挤穿、误放大、低对比度</h3>
+        <div class="kicker" style="opacity:.9">需要回标</div>
+        <h3 class="h-md" style="margin-top:2vh">不该放大的区域、误识别组件、固定视觉资产</h3>
         <p class="body-zh" style="margin-top:3vh">
-          尤其看多行标题、价格符号、导航 tab、固定切图、右侧/底部裁切提示。覆盖率低于 70% 的稿件，要重点查重叠和错位。
+          如果发现顶部品牌字、榜单图标、商品图、固定切图被误动，直接截图标注再让 AI 重跑。标注越明确，第二轮越稳定。
         </p>
       </div>
     </div>
   </div>
   <div class="foot">
-    <div>自动化负责初稿，设计师负责判断</div>
+    <div>验收不是找茬，是把自动化边界补完整</div>
     <div>06 / 07</div>
   </div>
 </section>
@@ -719,16 +726,16 @@
   </div>
   <div class="frame" style="display:grid; gap:5vh; align-content:center; min-height:80vh">
     <div class="kicker" data-anim>最后记住一句</div>
-    <blockquote style="font-family:var(--serif-zh); font-weight:800; font-size:5.7vw; line-height:1.18; letter-spacing:-.01em; max-width:78vw">
+    <blockquote style="font-family:var(--serif-zh); font-weight:800; font-size:5.5vw; line-height:1.2; letter-spacing:-.01em; max-width:84vw">
       <span data-anim="line" style="display:block">适老化适配，</span>
-      <span data-anim="line" style="display:block">本质是一次</span>
-      <span data-anim="line" style="display:block">结构化设计协作。</span>
+      <span data-anim="line" style="display:block">不是把所有东西变大，</span>
+      <span data-anim="line" style="display:block">而是把可读性和结构边界说清楚。</span>
     </blockquote>
-    <p class="lead" style="max-width:62vw; opacity:.7" data-anim>
-      你不用把每个细节都交给自动化。你只需要把边界说清楚：哪里能变，哪里不能变，以及变完如何验收。
+    <p class="lead" style="max-width:66vw; opacity:.7" data-anim>
+      第一次使用时，就按这个顺序：输入原稿、确认版本、通过 Auto Layout 检测、截图标注不放大区域、生成结果、人工验收。
     </p>
     <div class="meta-row" data-anim>
-      <span>Select</span><span>·</span><span>Annotate</span><span>·</span><span>Generate</span><span>·</span><span>Review</span>
+      <span>Input</span><span>·</span><span>Check</span><span>·</span><span>Annotate</span><span>·</span><span>Generate</span><span>·</span><span>Review</span>
     </div>
   </div>
   <div class="foot">
